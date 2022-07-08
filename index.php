@@ -80,11 +80,11 @@ if (isset($_POST['type'])){
         echo ("€");
         ?> <br> <?php 
         echo ("Salaire total de la nuit : ");
-        echo  (($heure_de_nuit)/60)* $salaire ;
+        echo  (($heure_de_nuit)/60)*1.5* $salaire ;
         echo ("€");
         ?> <br> <?php
         echo ("Salaire total : ");
-        echo (((($heure_totale_de_jour)/60) * $salaire)+((($heure_de_nuit)/60)* $salaire));
+        echo (((($heure_totale_de_jour)/60) * $salaire)+((($heure_de_nuit)/60)*1.5* $salaire));
         echo ("€");
 
         
@@ -129,11 +129,11 @@ if (isset($_POST['type'])){
         echo  ($heure_de_nuit)/60 ;
         ?> <br> <?php 
         echo ("Salaire total de la nuit : ");
-        echo  (($heure_de_nuit)/60)* $salaire ;
+        echo  (($heure_de_nuit)/60)*1.5* $salaire ;
         echo ("€");
         ?> <br> <?php
         echo ("Salaire total : ");
-        echo (((($heure_totale_de_jour)/60) * $salaire)+((($heure_de_nuit)/60)* $salaire));
+        echo (((($heure_totale_de_jour)/60) * $salaire)+((($heure_de_nuit)/60)*1.5* $salaire));
         echo ("€");
 
 
